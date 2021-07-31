@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903943805173",
+    "project_id": "saludable-f74e6",
+    "storage_bucket": "saludable-f74e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903943805173:android:e6cd241f672c4e5df30dbc",
+        "android_client_info": {
+          "package_name": "com.feluts.saludable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903943805173-2cnvvd2o4g2c76buqrum9l622j6gh7fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3N17slMFBipbwSZ9M7oE2mB8_VXuw0tE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903943805173-2cnvvd2o4g2c76buqrum9l622j6gh7fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

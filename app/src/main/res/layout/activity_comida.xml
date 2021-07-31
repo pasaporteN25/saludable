@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/verde_nutri"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Tus comidas"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/tipocom_sp"
+        android:layout_width="match_parent"
+        android:layout_height="43dp" />
+
+    <EditText
+        android:id="@+id/compri_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Comida Principal"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/comsec_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Comida secundaria"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/tipobeb_sp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <Switch
+        android:id="@+id/postre_sw"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="Ingirio Postre?" />
+
+    <EditText
+        android:id="@+id/postre_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Postre"
+        android:inputType="textPersonName" />
+
+    <Switch
+        android:id="@+id/tenta_sw"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="Se tento con otro alimento?" />
+
+    <EditText
+        android:id="@+id/tenta_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Comida que le tento"
+        android:inputType="textPersonName" />
+
+    <Switch
+        android:id="@+id/mashambre"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="Quedo con hambre?" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/limpiar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Limpiar " />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/enviar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enviar" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_nu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:srcCompat="@tools:sample/avatars" />
+    </ScrollView>
+
+</LinearLayout>
